@@ -1,50 +1,21 @@
 <?php require './header.php';?>
+    <div data-role="page" data-title="成绩">
+      <div class="ui-content" role="main">
+      <?php include './column.php';?>
+  <div data-role="fieldcontain" class="ui-body ui-body-a ui-corner-all">
+    <p>称号</p>
+</div>
+<div data-role="fieldcontain" class="ui-body ui-body-a ui-corner-all">
+    <p>能力分析区域</p>
+</div>
+<a href="#" class="ui-btn ui-corner-all">GPA计算</a>
+<a href="#" class="ui-btn ui-corner-all">最新成绩</a>
+<a href="#" class="ui-btn ui-corner-all">所有成绩</a>
+<a href="#" class="ui-btn ui-corner-all">成绩记录本</a>
+      </div>
+      <!-- /content --> 
+      
+    </div>
+    <!-- /page -->
 
-	<div data-role="page" data-title="成绩">
-
-	    <div class="ui-content" role="main">
-
-				<ul data-role="listview" data-theme="a" data-dividertheme="e" data-filter="true" data-filter-theme="a" data-filter-placeholder="Search friends...">
-					<li data-role="list-divider">A</li>
-					<li><a href="#">Adam Kinkaid</a></li>
-					<li><a href="#">Alex Wickerham</a></li>
-					<li><a href="#">Avery Johnson</a></li>
-					<li data-role="list-divider">B</li>
-					<li><a href="#">Bob Cabot</a></li>
-					<li data-role="list-divider">C</li>
-					<li><a href="#">Caleb Booth</a></li>
-					<li><a href="#">Christopher Adams</a></li>
-					<li><a href="#">Culver James</a></li>
-					<li data-role="list-divider">D</li>
-					<li><a href="#">David Walsh</a></li>
-					<li><a href="#">Drake Alfred</a></li>
-					<li data-role="list-divider">E</li>
-					<li><a href="#">Elizabeth Bacon</a></li>
-					<li><a href="#">Emery Parker</a></li>
-					<li><a href="#">Enid Voldon</a></li>
-					<li data-role="list-divider">F</li>
-					<li><a href="#">Francis Wall</a></li>
-					<li data-role="list-divider">G</li>
-					<li><a href="#">Graham Smith</a></li>
-					<li><a href="#">Greta Peete</a></li>
-					<li data-role="list-divider">H</li>
-					<li><a href="#">Harvey Walls</a></li>
-					<li data-role="list-divider">M</li>
-					<li><a href="#">Mike Farnsworth</a></li>
-					<li><a href="#">Murray Vanderbuilt</a></li>
-					<li data-role="list-divider">N</li>
-					<li><a href="#">Nathan Williams</a></li>
-					<li data-role="list-divider">P</li>
-					<li><a href="#">Paul Baker</a></li>
-					<li><a href="#">Pete Mason</a></li>
-					<li data-role="list-divider">R</li>
-					<li><a href="#">Rod Tarker</a></li>
-					<li data-role="list-divider">S</li>
-					<li><a href="#">Sawyer Wakefield</a></li>
-				</ul>
-
-		</div><!-- /content -->
-
-	</div><!-- /page -->
-
-	<?php require './footer.php';?>
+    <?php require './footer.php';?>

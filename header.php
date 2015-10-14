@@ -7,9 +7,7 @@
 	<link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="http://fonts.lug.ustc.edu.cn/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="/css/jquery.mobile-1.4.5.min.css">
-	<link rel="stylesheet" href="/css/jqm-demos.css">
-	<script src="/js/jquery.js"></script>
-	<script src="/js/index.js"></script>
+	<script src="/js/jquery.min.js"></script>
 	<script src="/js/jquery.mobile-1.4.5.min.js"></script>
 	<script>
 		$(function() {
