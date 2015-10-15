@@ -1,12 +1,27 @@
-<div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="a">
-		<div data-role="navbar">
-			<ul>
-				<li><a href="score.php" data-prefetch="true" data-transition="fade">成绩</a></li>
-				<li><a href="syllabus.php" data-prefetch="true" data-transition="fade">课表</a></li>
-				<li><a href="affairs.php" data-prefetch="true" data-transition="fade">相关事</a></li>
-			</ul>
-		</div><!-- /navbar -->
-	</div><!-- /footer -->
-
+<div id="footer" data-role="footer" data-position="fixed" data-tap-toggle="false"
+data-theme="a">
+  <div data-role="navbar">
+    <ul>
+      <li>
+        <a class="nav_bar_item" href="score.php" data-prefetch="true" data-transition="fade">
+          成绩
+        </a>
+      </li>
+      <li>
+        <a class="nav_bar_item" href="syllabus.php" data-prefetch="true" data-transition="fade">
+          课表
+        </a>
+      </li>
+      <li>
+        <a class="nav_bar_item" href="affairs.php" data-prefetch="true" data-transition="fade">
+          相关事
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- /navbar -->
+</div>
+<!-- /footer -->
 </body>
+
 </html>
