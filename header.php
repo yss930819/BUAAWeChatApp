@@ -7,34 +7,13 @@
 	<link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="http://fonts.lug.ustc.edu.cn/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="/css/jquery.mobile-1.4.5.min.css">
-	<script src="/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+	<script src="/js/jquery-2.1.4.min.js"></script>
 	<script src="/js/jquery.mobile-1.4.5.min.js"></script>
-	<script>
-		$(function() {
-			$( "[data-role='navbar']" ).navbar();
-			$( "[data-role='header'], [data-role='footer']" ).toolbar();
-		});
-		// Update the contents of the toolbars
-		$( document ).on( "pagecontainerchange", function() {
-			// Each of the four pages in this demo has a data-title attribute
-			// which value is equal to the text of the nav button
-			// For example, on first page: <div data-role="page" data-title="Info">
-			var current = $( ".ui-page-active" ).jqmData( "title" );
-			// Change the heading
-			$( "[data-role='header'] h1" ).text( current );
-			// Remove active class from nav buttons
-			$( "[data-role='navbar'] a.ui-btn-active" ).removeClass( "ui-btn-active" );
-			// Add active class to current nav button
-			$( "[data-role='navbar'] a" ).each(function() {
-				if ( $( this ).text() === current ) {
-					$( this ).addClass( "ui-btn-active" );
-				}
-			});
-		});
-	</script>
+    <script src="/js/main.js"></script>
 </head>
 <body>
     <div data-role="header" data-position="fixed" data-theme="a">
-		<!--<a href="../toolbar/" data-rel="back" class="ui-btn ui-btn-left ui-alt-icon ui-nodisc-icon ui-corner-all ui-btn-icon-notext ui-icon-carat-l">Back</a>-->
+		<a id="back_button" href="#" data-rel="back" class="ui-btn ui-btn-left ui-alt-icon ui-nodisc-icon ui-corner-all ui-btn-icon-notext ui-icon-carat-l">Back</a>
         <h1>title</h1>
     </div><!-- /header -->

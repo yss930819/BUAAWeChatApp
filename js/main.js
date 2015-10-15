@@ -13,7 +13,7 @@ $(document).on("pagecontainerchange", function() {
     var current = $(".ui-page-active").jqmData("title");
     // Change the heading
     $("[data-role='header'] h1").text(current);
-    //if it is a sub page, then wee add a back button and don't remove active class to the current active nav button
+    //if it is a sub page, then we add a back button and don't remove active class to the current active nav button
     var subPageTitles = ["GPA计算", "最新成绩", "所有成绩", "成绩记录本"];
     for (var index in subPageTitles) {
         if (current === subPageTitles[index]) {
