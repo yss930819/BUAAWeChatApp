@@ -4,7 +4,7 @@
     <?php include './column.php';?>
     <h2>校历日程</h2>
     <div class="ui-grid-a">
-      <div class="ui-block-a" style="text-align:center">
+      <div id="sign-in" class="ui-block-a" style="text-align:center">
           <a href="#" data-role="button">每日签到</a>
           <span>你已经连续签到xx天</span>
       </div>
