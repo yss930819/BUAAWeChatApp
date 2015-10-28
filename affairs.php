@@ -18,9 +18,9 @@
     </div> 
   </div>
   </div>
-  <!-- /content --> 
+   
   
 </div>
-<!-- /page -->
+
 
 <?php require './footer.php';?>

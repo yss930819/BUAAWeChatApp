@@ -5,8 +5,8 @@
 				<li><a href="syllabus.php" data-prefetch="true" data-transition="fade" style="font-size: 14px">课表</a></li>
 				<li><a href="affairs.php" data-prefetch="true" data-transition="fade" style="font-size: 14px">相关事</a></li>
 			</ul>
-		</div><!-- /navbar -->
-	</div><!-- /footer -->
+		</div>
+	</div>
 
 </body>
 </html>

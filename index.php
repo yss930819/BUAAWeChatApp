@@ -8,9 +8,9 @@
         <h3>（既有图片，也可以是文字）</h3>
       </div>
       <h3 class="ui-bar ui-bar-a ui-corner-all">Developed by XXX</h3>
-      <!-- /content --> 
+       
       
     </div>
-    <!-- /page -->
+    
 
     <?php require './footer.php';?>

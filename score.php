@@ -11,6 +11,6 @@
     </div>
     <a href="score_gpa.php" class="ui-btn ui-corner-all">GPA计算</a> <a href="score_latest.php" class="ui-btn ui-corner-all">最新成绩</a> <a href="score_all.php" class="ui-btn ui-corner-all">所有成绩</a> <a href="score_memos.php" class="ui-btn ui-corner-all">成绩记录本</a> </div>
 </div>
-<!-- /page -->
+
 
 <?php require './footer.php';?>

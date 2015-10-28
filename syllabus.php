@@ -3,9 +3,9 @@
   <div class="ui-content" role="main">
     <?php include './column.php';?>
   </div>
-  <!-- /content --> 
+   
   
 </div>
-<!-- /page -->
+
 
 <?php require './footer.php';?>

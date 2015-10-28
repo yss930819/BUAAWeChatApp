@@ -20,9 +20,9 @@
                 </div>
         <h3 class="ui-bar ui-bar-a ui-corner-all">Developed by XXX</h3>
       </div>
-      <!-- /content --> 
+       
       
     </div>
-    <!-- /page -->
+    
 
     <?php require './footer.php';?>
