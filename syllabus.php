@@ -31,11 +31,11 @@
   </div>
 </div>
 <script src="/js/swiper.jquery.min.js"></script>
-<script>var swiper = new Swiper('.swiper-container', {
+<script>window.onload = function() {var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         paginationClickable: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         spaceBetween: 30
-    });</script>
+    });}</script>
 <?php require './footer.php';?>
