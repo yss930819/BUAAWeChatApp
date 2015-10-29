@@ -7,10 +7,48 @@
       <div class="ui-block-b"><a href="#" data-role="button" data-icon="plus">同步到系统日历</a></div>
     </div>
     
-    <script>prepareSwiper();</script>
+    <script>prepareSwiperCSS();</script>
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide"><table data-role="table" id="syllabus-table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive ui-corner-all" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+  <thead>
+    <tr class="ui-bar-d">
+      <th scope="col">时间</th>
+      <th scope="col">科目 地点</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</div>
             <div class="swiper-slide">Slide 2</div>
             <div class="swiper-slide">Slide 3</div>
             <div class="swiper-slide">Slide 4</div>
@@ -31,11 +69,5 @@
   </div>
 </div>
 <script src="/js/swiper.jquery.min.js"></script>
-<script>window.onload = function() {var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        spaceBetween: 30
-    });}</script>
+<script>window.onload = prepareSwiperJS</script>
 <?php require './footer.php';?>
