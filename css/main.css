@@ -35,12 +35,6 @@
 	align-items: center;
 }
 
-
-.syllabus-table{
-	margin: 3em;	
-	width: 100%;
-}
-
 .swiper-slide:nth-child(2n) {
 	width: 40%;
 }
