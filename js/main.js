@@ -31,3 +31,12 @@ $(document).on("pagecontainerchange", function() {
         $("#back_button").css("visibility", "hidden");
     });
 });
+
+function prepareSwiper() {
+	$("<link>")
+    .attr({ rel: "stylesheet",
+        type: "text/css",
+        href: "/css/swiper.min.css"
+    })
+    .appendTo("head");
+}
