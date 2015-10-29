@@ -32,11 +32,23 @@ $(document).on("pagecontainerchange", function() {
     });
 });
 
-function prepareSwiper() {
+function prepareSwiperCSS() {
 	$("<link>")
     .attr({ rel: "stylesheet",
         type: "text/css",
         href: "/css/swiper.min.css"
     })
     .appendTo("head");
+}
+
+function prepareSwiperJS() {
+var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+		slidesPerView: 1,
+        paginationClickable: true,
+		centeredSlides: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+    });
+	$("[href='#syllabus-table-popup']").remove();
 }
