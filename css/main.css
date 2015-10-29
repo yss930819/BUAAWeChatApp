@@ -30,3 +30,8 @@
 	-webkit-align-items: center;
 	align-items: center;
 }
+
+.syllabus-table{
+	margin: 3em;	
+	width: 100%;
+}
