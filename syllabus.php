@@ -14,7 +14,7 @@
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <table data-role="table" id="syllabus-table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive ui-corner-all" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+          <table data-role="table" id="syllabus-table-sunday" data-mode="columntoggle" class="syllabus-table ui-body-d ui-shadow table-stripe ui-responsive ui-corner-all" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
             <thead>
               <tr class="ui-bar-d">
                 <th scope="col">时间</th>
@@ -53,12 +53,246 @@
             </tbody>
           </table>
         </div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">
+          <table data-role="table" id="syllabus-table-monday" data-mode="columntoggle" class="syllabus-table ui-body-d ui-shadow table-stripe ui-responsive ui-corner-all" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+            <thead>
+              <tr class="ui-bar-d">
+                <th scope="col">时间</th>
+                <th scope="col">科目 地点</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="swiper-slide">
+          <table data-role="table" id="syllabus-table-tuesday" data-mode="columntoggle" class="syllabus-table ui-body-d ui-shadow table-stripe ui-responsive ui-corner-all" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+            <thead>
+              <tr class="ui-bar-d">
+                <th scope="col">时间</th>
+                <th scope="col">科目 地点</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="swiper-slide">
+          <table data-role="table" id="syllabus-table-wednesday" data-mode="columntoggle" class="syllabus-table ui-body-d ui-shadow table-stripe ui-responsive ui-corner-all" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+            <thead>
+              <tr class="ui-bar-d">
+                <th scope="col">时间</th>
+                <th scope="col">科目 地点</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="swiper-slide">
+          <table data-role="table" id="syllabus-table-thursday" data-mode="columntoggle" class="syllabus-table ui-body-d ui-shadow table-stripe ui-responsive ui-corner-all" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+            <thead>
+              <tr class="ui-bar-d">
+                <th scope="col">时间</th>
+                <th scope="col">科目 地点</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="swiper-slide">
+          <table data-role="table" id="syllabus-table-friday" data-mode="columntoggle" class="syllabus-table ui-body-d ui-shadow table-stripe ui-responsive ui-corner-all" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+            <thead>
+              <tr class="ui-bar-d">
+                <th scope="col">时间</th>
+                <th scope="col">科目 地点</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="swiper-slide">
+          <table data-role="table" id="syllabus-table-saturday" data-mode="columntoggle" class="syllabus-table ui-body-d ui-shadow table-stripe ui-responsive ui-corner-all" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+            <thead>
+              <tr class="ui-bar-d">
+                <th scope="col">时间</th>
+                <th scope="col">科目 地点</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
@@ -67,6 +301,6 @@
       <div class="swiper-button-prev"></div>
     </div>
   </div>
-  <script src="/js/swiper.jquery.min.js"></script>
+  <script src="/js/swiper.jquery.min.js"></script> 
 </div>
 <?php require './footer.php';?>

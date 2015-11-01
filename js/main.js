@@ -33,7 +33,7 @@ function() {
     });
 });
 
-$(document).on("pageshow","#syllabus-page",prepareSwiperJS);
+$(document).on("pageshow", "#syllabus-page", prepareSwiperJS);
 
 function prepareSwiperCSS() {
     if (!$("[href='/css/swiper.min.css']").length) {
@@ -50,9 +50,10 @@ function prepareSwiperJS() {
         var swiper = new Swiper('.swiper-container', {
             pagination: '.swiper-pagination',
             slidesPerView: 1,
-            freemode: false,
+            effect: 'coverflow',
             paginationClickable: true,
             centeredSlides: true,
+            spaceBetween: 100,
             nextButton: '.swiper-button-next',
             prevButton: '.swiper-button-prev',
         });
