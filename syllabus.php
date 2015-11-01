@@ -4,7 +4,7 @@
     <?php include './column.php';?>
     <div class="ui-grid-a">
       <div class="ui-block-a">
-        <div class="ui-field-contain ui-corner-all ui-body ui-body-a">
+        <div class="ui-bar ui-bar-a ui-mini ui-corner-all">
           <p>星期x</p>
         </div>
       </div>
