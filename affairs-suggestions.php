@@ -7,7 +7,7 @@
     <div class="ui-body ui-body-a ui-corner-all">
       <div class="ui-field-contain">
         <div class="ui-grid-a">
-          <div class="ui-block-a" style="width:30%">
+          <div class="ui-block-a" style="width:40%">
             <select name="selectmenu" id="selectmenu">
               <option value="dormitory">宿舍</option>
               <option value="internet">上网</option>
@@ -18,7 +18,7 @@
               <option value="other">其它</option>
             </select>
           </div>
-          <div class="ui-block-b" style="width:70%">
+          <div class="ui-block-b" style="width:60%">
             <input type="text" name="title" id="title" value="" />
           </div>
         </div>

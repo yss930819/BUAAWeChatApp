@@ -53,7 +53,7 @@ function prepareSwiperJS() {
             effect: 'coverflow',
             paginationClickable: true,
             centeredSlides: true,
-            spaceBetween: 100,
+            spaceBetween: 30,
             nextButton: '.swiper-button-next',
             prevButton: '.swiper-button-prev',
         });

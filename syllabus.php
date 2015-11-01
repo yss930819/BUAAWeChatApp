@@ -5,16 +5,16 @@
     <div class="ui-grid-a">
       <div class="ui-block-a">
         <div class="ui-field-contain ui-corner-all ui-body ui-body-a">
-          <p>星期x（优先今天）</p>
+          <p>星期x</p>
         </div>
       </div>
-      <div class="ui-block-b"><a href="#" data-role="button" data-icon="plus">同步到系统日历</a></div>
+      <div class="ui-block-b"><a href="#" data-role="button" data-icon="plus" class="ui-button-inline" style="font-size:0.5em">同步到系统日历</a></div>
     </div>
     <script>prepareSwiperCSS();</script>
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <table data-role="table" id="syllabus-table-sunday" data-mode="columntoggle" class="syllabus-table ui-body-d ui-shadow table-stripe ui-responsive ui-corner-all" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
+          <table data-role="table" id="syllabus-table-sunday" data-mode="columntoggle" class="syllabus-table ui-body-d ui-shadow table-stripe ui-responsive ui-corner-all" data-column-btn-theme="b" data-column-btn-text="Waiting for Ads...." data-column-popup-theme="a">
             <thead>
               <tr class="ui-bar-d">
                 <th scope="col">时间</th>
@@ -23,23 +23,23 @@
             </thead>
             <tbody>
               <tr>
-                <td>3</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>&nbsp;</td>
+                <td>08:00~10:00</td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-              </tr>
-              <tr>
-                <td>&nbsp;</td>
+                <td>10:00~12:00</td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
+                <td>14:00~16:00</td>
                 <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>16:00~18:00</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>18:00~20:00</td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
