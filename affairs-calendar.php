@@ -18,11 +18,8 @@
       <p>红色代表，蓝色代表</p>
       <p>特别节日以及北航的特别活动进行标记（作为推广活动的一个方法）</p>
     </div>
+    <div class="caption center">@Developed by Pride1952</div>
   </div>
 </div>
-
-
 </div>
-
-
 <?php require './footer.php';?>

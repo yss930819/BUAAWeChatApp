@@ -4,29 +4,25 @@
     <?php include './column.php';?>
     <h2>热门资讯</h2>
     <hr />
-    <ul data-role="listview" data-inset="true">
+    <ul data-role="listview" data-inset="true" data-theme="c">
       <li><a href="#">
         <h3>Page</h3>
         <p>Lorem ipsum</p>
         <p class="ui-li-aside">Aside</p>
-      </a></li>
+        </a></li>
       <li><a href="#">
         <h3>Page</h3>
         <p>Lorem ipsum</p>
         <p class="ui-li-aside">Aside</p>
-      </a></li>
+        </a></li>
       <li><a href="#">
         <h3>Page</h3>
         <p>Lorem ipsum</p>
         <p class="ui-li-aside">Aside</p>
-      </a></li>
+        </a></li>
     </ul>
-    
   </div>
-  </div>
-   
-  
+  <div class="caption center">@Developed by Pride1952</div>
 </div>
-
-
+</div>
 <?php require './footer.php';?>

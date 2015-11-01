@@ -14,6 +14,7 @@
         <li>科目3:</li>
       </ul>
     </div>
+    <div class="caption center">@Developed by Pride1952</div>
   </div>
 </div>
 <?php require './footer.php';?>

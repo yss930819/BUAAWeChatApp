@@ -37,12 +37,7 @@
         <p> 可以不带链接，只是统计数据做图表</p>
       </div>
     </div>
+    <div class="caption center">@Developed by Pride1952</div>
   </div>
 </div>
-</div>
-
-
-</div>
-
-
 <?php require './footer.php';?>

@@ -18,6 +18,13 @@
 	margin-top: 20%;
 }
 }
+.center {
+	text-align:center;
+	vertical-align:middle;
+}
+.caption {
+	color:gray;
+}
 .swiper-container {
 	width: 100%;
 	height: 100%;

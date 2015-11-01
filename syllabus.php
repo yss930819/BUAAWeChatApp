@@ -302,5 +302,6 @@
     </div>
   </div>
   <script src="/js/swiper.jquery.min.js"></script> 
+  <div class="caption center">@Developed by Pride1952</div>
 </div>
 <?php require './footer.php';?>

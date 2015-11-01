@@ -9,6 +9,7 @@
       <p>计算规则如下：</p>
       <p>xxx</p>
     </div>
+    <div class="caption center">@Developed by Pride1952</div>
   </div>
 </div>
 <?php require './footer.php';?>
