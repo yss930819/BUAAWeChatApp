@@ -19,12 +19,12 @@
             </select>
           </div>
           <div class="ui-block-b" style="width:60%">
-            <input type="text" name="title" id="title" value="" />
+            <input type="text" name="title" id="title" value="" placeholder="标题" />
           </div>
         </div>
         <div class="ui-field-contain">
           <div data-role="fieldcontain">
-            <textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+            <textarea cols="40" rows="8" name="textarea" id="textarea" placeholder="具体内容"></textarea>
           </div>
         </div>
         <div class="ui-field-contain">
