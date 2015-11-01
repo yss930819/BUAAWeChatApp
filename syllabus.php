@@ -1,5 +1,5 @@
 <?php require './header.php';?>
-<div data-role="page" data-title="课表">
+<div data-role="page" data-title="课表" id="syllabus-page">
   <div class="ui-content" role="main">
     <?php include './column.php';?>
     <div class="ui-grid-a">
@@ -66,7 +66,8 @@
     </div>
     
   </div>
+  <script src="/js/swiper.jquery.min.js"></script>
+<script>window.onload = prepareSwiperJS;
+$(document).on("pageshow","#syllabus-page",prepareSwiperJS);</script>
 </div>
-<script src="/js/swiper.jquery.min.js"></script>
-<script>window.onload = prepareSwiperJS</script>
 <?php require './footer.php';?>

@@ -45,10 +45,11 @@ function prepareSwiperJS() {
 var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
 		slidesPerView: 1,
+		freemode: false,
         paginationClickable: true,
 		centeredSlides: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
     });
-	$("[href='#syllabus-table-popup']").remove();
+	$(".ui-table-columntoggle-btn").remove();
 }
