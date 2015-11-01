@@ -8,7 +8,7 @@
           <p>星期x</p>
         </div>
       </div>
-      <div class="ui-block-b"><a href="#" data-role="button" data-icon="plus" class="ui-button-inline" style="font-size:0.5em">同步到系统日历</a></div>
+      <div class="ui-block-b"><a href="#" data-role="button" data-icon="plus" class="ui-btn-inline" style="font-size:0.5em">同步到系统日历</a></div>
     </div>
     <script>prepareSwiperCSS();</script>
     <div class="swiper-container">
