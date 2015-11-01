@@ -1,3 +1,14 @@
+#navbar {
+	font-size: 14px;
+}
+#footer {
+	border:none;
+	background:none;
+}
+.ui-footer .ui-navbar .ui-btn {
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
 #sign-in {
 	margin-top: 10%;
 }
