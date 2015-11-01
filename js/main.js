@@ -4,7 +4,8 @@ $(function() {
     $("[data-role='header'], [data-role='footer']").toolbar();
 });
 //pre-excuted codes end
-$(document).on("pagecontainerchange", function() {
+$(document).on("pagecontainerchange",
+function() {
     //Cancel the automatically-changing of the document title by jQuery Mobile
     document.title = "北航微教务 - by Pride 1952 @ BUAA";
     // Each of the four pages in this demo has a data-title attribute
@@ -14,7 +15,7 @@ $(document).on("pagecontainerchange", function() {
     // Change the heading
     $("[data-role='header'] h1").text(current);
     //if it is a sub page, then we add a back button and don't remove active class to the current active nav button
-    var subPageTitles = ["GPA计算", "最新成绩", "所有成绩", "成绩记录本","资讯","校历","意见"];
+    var subPageTitles = ["GPA计算", "最新成绩", "所有成绩", "成绩记录本", "资讯", "校历", "意见"];
     for (var index in subPageTitles) {
         if (current === subPageTitles[index]) {
             $("#back_button").css("visibility", "visible");
@@ -32,24 +33,29 @@ $(document).on("pagecontainerchange", function() {
     });
 });
 
+$(document).on("pageshow","#syllabus-page",prepareSwiperJS);
+
 function prepareSwiperCSS() {
-	$("<link>")
-    .attr({ rel: "stylesheet",
-        type: "text/css",
-        href: "/css/swiper.min.css"
-    })
-    .appendTo("head");
+    if (!$("[href='/css/swiper.min.css']").length) {
+        $("<link>").attr({
+            rel: "stylesheet",
+            type: "text/css",
+            href: "/css/swiper.min.css"
+        }).appendTo("head");
+    }
 }
 
 function prepareSwiperJS() {
-var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-		slidesPerView: 1,
-		freemode: false,
-        paginationClickable: true,
-		centeredSlides: true,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-    });
-	$(".ui-table-columntoggle-btn").remove();
+    if ("undefined" == typeof swiper) {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 1,
+            freemode: false,
+            paginationClickable: true,
+            centeredSlides: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+        });
+    }
+    $(".ui-table-columntoggle-btn").remove();
 }
