@@ -56,3 +56,10 @@
 .swiper-slide:nth-child(3n) {
 	width: 20%;
 }
+
+.ui-body-a {
+	margin-left:-1em;
+	margin-right:-1em;
+	border-left:none;
+	border-right:none;
+}
