@@ -297,8 +297,8 @@
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
       <!-- Add Arrows -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next swiper-button-black"></div>
+      <div class="swiper-button-prev swiper-button-black"></div>
     </div>
   </div>
   <script src="/js/swiper.jquery.min.js"></script> 

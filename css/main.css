@@ -86,3 +86,7 @@ input[data-role="none"] {
 ul {
 	list-style-type: none;
 }
+
+.swiper-pagination-bullet-active {
+	background:gray !important;
+}
