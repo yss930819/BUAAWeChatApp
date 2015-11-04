@@ -68,3 +68,8 @@ hr {
 	border:none;
 	border-top:1px ridge #58c4bb;
 }
+
+input#username, input#password {
+	border:none;
+	width:100%;
+}
