@@ -10,7 +10,6 @@
      <p>@Developed by Pride1952</p> 
     </div> 
     <div class="ui-body ui-body-c">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
      <div data-role="fieldcontain"> 
       <input data-role="none" type="text" name="username" id="username" placeholder="用户名" value="" /> 
       <hr /> 
