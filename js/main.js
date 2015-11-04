@@ -2,6 +2,8 @@
 $(function() {
     $("[data-role='navbar']").navbar();
     $("[data-role='header'], [data-role='footer']").toolbar();
+    $('body').fontFlex(14, 20, 70);
+  $('td').fontFlex(1, 100, 25);
 });
 //pre-excuted codes end
 $(document).on("pagecontainerchange",
@@ -50,7 +52,6 @@ function prepareSwiperJS() {
         var swiper = new Swiper('.swiper-container', {
             pagination: '.swiper-pagination',
             slidesPerView: 1,
-            effect: 'coverflow',
             paginationClickable: true,
             centeredSlides: true,
             spaceBetween: 30,
@@ -60,3 +61,23 @@ function prepareSwiperJS() {
     }
     $(".ui-table-columntoggle-btn").remove();
 }
+
+(function($) {
+
+    $.fn.fontFlex = function(min, max, mid) {
+
+        var $this = this;
+
+        $(window).resize(function() {
+
+            var size = window.innerWidth / mid;
+
+            if (size < min) size = min;
+            if (size > max) size = max;
+
+            $this.css('font-size', size + 'px');
+
+        }).trigger('resize');
+    };
+
+})(jQuery);

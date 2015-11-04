@@ -24,7 +24,7 @@
             <tbody>
               <tr>
                 <td>08:00~10:00</td>
-                <td>&nbsp;</td>
+                <td>The quick brown fox jumps over the lazy dog.</td>
               </tr>
               <tr>
                 <td>10:00~12:00</td>
