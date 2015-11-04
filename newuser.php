@@ -1,4 +1,4 @@
-<!--?php require './header.php';?-->
+<?php require './header.php';?>
 <html>
  <head></head>
  <body>
@@ -24,6 +24,6 @@
     <h6>3.xxxxxxxxx</h6>
    </div> 
   </div> 
-  <!--?php require './footer.php';?-->
+  <?php require './footer.php';?>
  </body>
 </html>
