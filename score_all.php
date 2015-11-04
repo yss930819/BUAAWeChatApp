@@ -11,7 +11,7 @@
      <p>你的学霸指数：</p> 
      <h3>★★★★★★</h3> 
      <p>获得称号：</p> 
-     <ul style="text-align:left;list-style-type:none;"> 
+     <ul style="text-align:left;"> 
       <li>科目1:xxxxxxxxxxx</li> 
       <li>科目2:xxxxx</li> 
       <li>科目3:xxxxxxxx</li> 

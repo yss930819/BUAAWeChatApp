@@ -67,13 +67,22 @@
 hr {
 	border:none;
 	border-top:1px ridge #58c4bb;
+	width:95%;
 }
 
-input#username, input#password {
+.hr_gray {
+	border-top:1px ridge #e5e5e5;
+}
+
+input[data-role="none"] {
 	border:none;
-	width:100%;
+	width:90%;
 }
 
 .ui-btn-b {
 	margin:0px !important;
+}
+
+ul {
+	list-style-type: none;
 }
