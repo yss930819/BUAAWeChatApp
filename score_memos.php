@@ -10,7 +10,7 @@
      <p>这样你点一下就可以随时看见了~</p>
      <p>需要的话还可以随时进行添加</p> 
     </div> 
-    <div data-role="fieldcontain" class="ui-body ui-body-a center"> 
+    <div data-role="fieldcontain" class="ui-body ui-body-c center"> 
      <h3>添加新条目</h3> 
      <br /> 
      <input data-role="none" type="text" name="name" id="name" placeholder="科目名称" value="" /> 

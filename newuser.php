@@ -9,12 +9,13 @@
      <img src="/img/placeholder.png" style="width:30%" class="center" />
      <p>@Developed by Pride1952</p> 
     </div> 
-    <div class="ui-body ui-body-c">
-     <div data-role="fieldcontain"> 
+    <div class="ui-body ui-body-c center">
+      <div data-role="fieldcontain">
       <input data-role="none" type="text" name="username" id="username" placeholder="用户名" value="" /> 
       <hr /> 
       <input data-role="none" type="password" name="password" id="password" placeholder="密码" value="" /> 
-     </div> 
+      <hr class="hr_gray" />
+      </div>
     </div> 
     <input type="submit" value="登录" /> 
     <h5>注意事项:</h5> 
