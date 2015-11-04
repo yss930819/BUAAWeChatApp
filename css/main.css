@@ -73,3 +73,7 @@ input#username, input#password {
 	border:none;
 	width:100%;
 }
+
+.ui-btn-b {
+	margin:0px !important;
+}
