@@ -21,7 +21,7 @@
     <h5>注意事项:</h5> 
     <h6>1.请输入您的学校教务用户名及密码</h6> 
     <h6>2.区分大小写</h6> 
-    <h6>3.xxxxxxxxx</h6> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <h6>3.xxxxxxxxx</h6>
    </div> 
   </div> 
   <!--?php require './footer.php';?-->
