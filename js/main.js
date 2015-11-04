@@ -2,7 +2,6 @@
 $(function() {
     $("[data-role='navbar']").navbar();
     $("[data-role='header'], [data-role='footer']").toolbar();
-    $('body').fontFlex(14, 20, 70);
   $('td').fontFlex(1, 100, 25);
 });
 //pre-excuted codes end
