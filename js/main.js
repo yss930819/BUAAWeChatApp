@@ -28,7 +28,7 @@ function() {
     });
 });
 
-$(document).on("pageshow", "#syllabus-page", prepareSwiperJS);
+$(document).on("pageshow", "#syllabus-page-dayview", prepareSwiperJS);
 
 function prepareSwiperCSS() {
     if (!$("[href='/css/swiper.min.css']").length) {
@@ -76,5 +76,49 @@ function prepareSwiperJS() {
 })(jQuery);
 
 function insertTables() {
-    
+    var slides=new Array("slide-sunday","slide-monday","slide-tuesday","slide-wednesday","slide-thursday","slide-friday","slide-saturday");
+    for (currentSlideIndex in slides) {
+        $("#"+slides[currentSlideIndex]).html(insertTable(slides[currentSlideIndex]));
+    }
+}
+
+function insertTable(currentSlide) {
+    return "<table data-role=\"table\" data-mode=\"columntoggle\" class=\"syllabus-table ui-shadow table-stripe ui-responsive ui-corner-all\" data-column-btn-theme=\"b\" data-column-btn-text=\"Columns to display...\" data-column-popup-theme=\"a\">"+
+"            <thead>"+
+"              <tr class=\"ui-bar-d\">"+
+"                <th scope=\"col\">时间</th>"+
+"                <th scope=\"col\">科目 地点</th>"+
+"              </tr>"+
+"            </thead>"+
+"            <tbody>"+
+"              <tr>"+
+"                <td>08:00~10:00</td>"+
+"                <td>The quick brown fox jumps over the lazy dog</td>"+
+"              </tr>"+
+"              <tr>"+
+"                <td>&nbsp;</td>"+
+"                <td>&nbsp;</td>"+
+"              </tr>"+
+"              <tr>"+
+"                <td>&nbsp;</td>"+
+"                <td>&nbsp;</td>"+
+"              </tr>"+
+"              <tr>"+
+"                <td>&nbsp;</td>"+
+"                <td>&nbsp;</td>"+
+"              </tr>"+
+"              <tr>"+
+"                <td>&nbsp;</td>"+
+"                <td>&nbsp;</td>"+
+"              </tr>"+
+"              <tr>"+
+"                <td>&nbsp;</td>"+
+"                <td>&nbsp;</td>"+
+"              </tr>"+
+"              <tr>"+
+"                <td>&nbsp;</td>"+
+"                <td>&nbsp;</td>"+
+"              </tr>"+
+"            </tbody>"+
+"          </table>";
 }
