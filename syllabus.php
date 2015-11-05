@@ -1,20 +1,14 @@
 <?php require './header.php';?>
-<div data-role="page" data-title="课表" id="syllabus-page">
+<div data-role="page" data-title="课表" id="syllabus-page-dayview">
   <div class="ui-content" role="main">
     <?php include './column.php';?>
-    <div class="ui-grid-a">
-      <div class="ui-block-a">
-        <div class="ui-bar ui-bar-a ui-mini ui-corner-all">
-          <p>星期x</p>
-        </div>
-      </div>
-      <div class="ui-block-b"><a href="#" data-role="button" data-icon="plus" class="ui-btn-inline" style="font-size:0.5em">同步到系统日历</a></div>
-    </div>
+    <div><a href="#" data-role="button" class="ui-btn-inline ui-btn-mini" style="font-size:0.5em;float:right;">同步到系统日历</a>
+    <div class="center"><h3 id="syllabus-dayview-title">星期x</h3></div>
     <script>prepareSwiperCSS();</script>
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <table data-role="table" id="syllabus-table-sunday" data-mode="columntoggle" class="syllabus-table ui-body-d ui-shadow table-stripe ui-responsive ui-corner-all" data-column-btn-theme="b" data-column-btn-text="Waiting for Ads...." data-column-popup-theme="a">
+         <table data-role="table" id="syllabus-table-Sunday" data-mode="columntoggle" class="syllabus-table ui-shadow table-stripe ui-responsive ui-corner-all" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a">
             <thead>
               <tr class="ui-bar-d">
                 <th scope="col">时间</th>
@@ -24,22 +18,22 @@
             <tbody>
               <tr>
                 <td>08:00~10:00</td>
-                <td>The quick brown fox jumps over the lazy dog.</td>
+                <td>The quick brown fox jumps over the lazy dog</td>
               </tr>
               <tr>
-                <td>10:00~12:00</td>
+                <td>&nbsp;</td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
-                <td>14:00~16:00</td>
+                <td>&nbsp;</td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
-                <td>16:00~18:00</td>
+                <td>&nbsp;</td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
-                <td>18:00~20:00</td>
+                <td>&nbsp;</td>
                 <td>&nbsp;</td>
               </tr>
               <tr>
@@ -294,14 +288,13 @@
           </table>
         </div>
       </div>
-      <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
-      <!-- Add Arrows -->
       <div class="swiper-button-next swiper-button-black"></div>
       <div class="swiper-button-prev swiper-button-black"></div>
     </div>
   </div>
-  <script src="/js/swiper.jquery.min.js"></script> 
+<div data-role="controlgroup" data-type="horizontal" data-mini="true" style="text-align:right"><input type="radio" name="radio-choice-h-6" id="radio-choice-h-6a" value="on" checked="checked"><label for="radio-choice-h-6a">日</label><input type="radio" name="radio-choice-h-6" id="radio-choice-h-6b" value="off"><label for="radio-choice-h-6b">周</label></div>
   <div class="caption center">@Developed by Pride1952</div>
+  <script src="/js/swiper.jquery.min.js"></script> 
 </div>
 <?php require './footer.php';?>

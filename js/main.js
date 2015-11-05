@@ -2,7 +2,7 @@
 $(function() {
     $("[data-role='navbar']").navbar();
     $("[data-role='footer']").toolbar();
-  $('td').fontFlex(1, 100, 25);
+  $('td').fontFlex(6, 30, 25);
 });
 //pre-excuted codes end
 $(document).on("pagecontainerchange",
@@ -74,3 +74,7 @@ function prepareSwiperJS() {
     };
 
 })(jQuery);
+
+function insertTables() {
+    
+}
