@@ -1,7 +1,6 @@
 <?php require './header.php';?>
 <div data-role="page" data-title="校历">
   <div class="ui-content" role="main">
-    <?php include './column.php';?>
     <h2>校历日程</h2>
     <hr />
     <div class="ui-grid-a">

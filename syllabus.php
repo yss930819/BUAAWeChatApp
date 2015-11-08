@@ -4,7 +4,6 @@
  <body>
   <div data-role="page" data-title="课表" id="syllabus-page-dayview"> 
    <div class="ui-content" role="main"> 
-    <?php include './column.php';?> 
     <div>
      <a href="#" data-role="button" class="ui-btn-inline ui-btn-mini" style="font-size:0.5em;float:right;">同步到系统日历</a>
     </div> 

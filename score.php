@@ -4,7 +4,6 @@
  <body>
   <div data-role="page" data-title="成绩" id="page_score_main"> 
    <div class="ui-content" role="main"> 
-    <?php include './column.php';?>
     <div data-role="fieldcontain" class="ui-body ui-body-a center">
      <h3>经测试，您的称号为：</h3> 
      <h1>学霸</h1> 

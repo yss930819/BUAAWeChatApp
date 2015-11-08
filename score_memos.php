@@ -4,7 +4,6 @@
  <body>
   <div data-role="page" data-title="成绩记录本" id="page_score_memos"> 
    <div class="ui-content" role="main"> 
-    <?php include './column.php';?> 
     <div class="center"> 
      <p>这里我们可以帮你记录你想要记住的一些成绩</p>
      <p>这样你点一下就可以随时看见了~</p>

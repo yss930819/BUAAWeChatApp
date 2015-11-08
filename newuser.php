@@ -4,7 +4,6 @@
  <body>
   <div data-role="page" data-title="登录教务系统" id="newuser-page"> 
    <div class="ui-content" role="main"> 
-    <?php include './column.php';?> 
     <div class="caption center"> 
      <img src="/img/placeholder.png" style="width:30%" class="center" />
      <p>@Developed by Pride1952</p> 

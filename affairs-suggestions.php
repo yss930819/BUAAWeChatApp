@@ -1,7 +1,6 @@
 <?php require './header.php';?>
 <div data-role="page" data-title="意见">
   <div class="ui-content" role="main">
-    <?php include './column.php';?>
     <h2>意见反馈</h2>
     <hr />
     <div class="ui-body ui-body-a ui-corner-all">

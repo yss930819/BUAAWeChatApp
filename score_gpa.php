@@ -4,7 +4,6 @@
  <body>
   <div data-role="page" data-title="GPA计算" id="page_score_gpa"> 
    <div class="ui-content" role="main"> 
-    <?php include './column.php';?> 
     <div data-role="fieldcontain" class="ui-body ui-body-a center">
      <h2>姓名：XXX</h2> 
      <br />
