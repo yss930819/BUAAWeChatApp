@@ -37,8 +37,6 @@
       </div> 
      </div> 
      <div class="swiper-pagination"></div> 
-     <div class="swiper-button-next swiper-button-black"></div> 
-     <div class="swiper-button-prev swiper-button-black"></div> 
     </div> 
    </div> 
    <div data-role="controlgroup" data-type="horizontal" data-mini="true" style="text-align:right">
