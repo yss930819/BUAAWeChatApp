@@ -2,7 +2,6 @@
 $(function() {
     $("[data-role='navbar']").navbar();
     $("[data-role='footer']").toolbar();
-  $('td').fontFlex(6, 30, 25);
 });
 //pre-excuted codes end
 $(document).on("pagecontainerchange",
@@ -11,6 +10,16 @@ function() {
     // which value is equal to the text of the nav button
     // For example, on first page: <div data-role="page" data-title="Info">
     var current = $(".ui-page-active").jqmData("title");
+    //Change the title of the webpage
+    var $body = $('body');
+        document.title = current;
+        // hack在微信等webview中无法修改document.title的情况
+        var $iframe = $('<iframe src="/favicon.ico"></iframe>');
+        $iframe.on('load',function() {
+            setTimeout(function() {
+                $iframe.off('load').remove();
+            }, 0);
+        }).appendTo($body);
     //if it is a sub page, then we add a back button and don't remove active class to the current active nav button
     var subPageTitles = ["GPA计算", "最新成绩", "所有成绩", "成绩记录本", "资讯", "校历", "意见"];
     for (var index in subPageTitles) {
@@ -53,6 +62,7 @@ function prepareSwiperJS() {
         });
     }
     $(".ui-table-columntoggle-btn").remove();
+    $('td').fontFlex(6, 30, 25);
 }
 
 (function($) {
