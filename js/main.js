@@ -54,6 +54,7 @@ function prepareSwiperJS() {
         var swiper = new Swiper('.swiper-container', {
             pagination: '.swiper-pagination',
             slidesPerView: 1,
+            loop: true,
             paginationClickable: true,
             centeredSlides: true,
             spaceBetween: 30,
