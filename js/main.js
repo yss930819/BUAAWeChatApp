@@ -35,9 +35,10 @@ function() {
             $(this).addClass("ui-btn-active");
         }
     });
+    if(current=="课表") {
+        prepareSwiperJS();
+    }
 });
-
-$(document).on("pageshow", "#syllabus-page-dayview", prepareSwiperJS);
 
 function prepareSwiperCSS() {
     if (!$("[href='/css/swiper.min.css']").length) {
