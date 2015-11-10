@@ -3,6 +3,7 @@ import urllib2
 import urllib
 import cookielib
 import re
+import json
 
 username=['light_jiang']
 password=['buaa14141086']
@@ -37,12 +38,13 @@ def getkebiao(username,password):
     ks=re.findall(re.compile('"([^"]*)"'),s[0])
     url='http://10.200.21.61:7001'+ks[0]
     res=urllib2.urlopen(url).read()
-    kebiao=[[],[],[],[],[],[],[]]
+    kebiao=[[],[],[],[],[],[]]
     kk=re.findall(r'<tr (.*?)</tr>',res,re.S)
     for i in range(0,6):
         kkk=re.findall(r'>(.*?)</td>',kk[i])
         for k in range(2,9):
-            kebiao[i].append(kkk[k].decode('utf-8'))
+            kebiao[i].append(kkk[k])
+    kebiao=json.dumps(kebiao)
     return kebiao                                                   #kebiao=[[第一二节周一到周日],[第三四节周一到周日],[第五六节周一到周日],[第7、8节周一到周日],[第9、10节周一到周日],[第10、11节周一到周日]]
 
 def getgrade(username,password):
@@ -75,6 +77,7 @@ def getgrade(username,password):
         #for gr in ga:
             #print gr
     #print grades1
+    #grades=json.dumps(grades)
     return grades
 
 def getgrade1(gh):
@@ -94,3 +97,4 @@ def getgrade1(gh):
                 course.append(coursep[k])
             courses.append(course)
     return courses
+
